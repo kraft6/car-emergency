@@ -1,0 +1,15 @@
+https://www.piddlerintheroot.com/rf-433-mhz/
+
+
+SETUP:
+https://pypi.python.org/pypi/rpi-rf
+
+
+sudo apt-get install python3-pip
+1
+sudo apt-get install python3-pip
+
+sudo pip3 install rpi-rf
+1
+sudo pip3 install rpi-rf
+CODE:
