@@ -30,9 +30,11 @@ if args.pulselength:
     pulselength = args.pulselength
 else:
     pulselength = "default"
+#print(args.gpio)
 logging.info(str(args.code) +
              " [protocol: " + str(protocol) +
              ", pulselength: " + str(pulselength) + "]")
 
 rfdevice.tx_code(args.code, args.protocol, args.pulselength)
 rfdevice.cleanup()
+
